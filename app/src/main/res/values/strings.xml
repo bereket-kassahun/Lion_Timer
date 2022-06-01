@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lion Timer</string>
+    <string name="main_fragment_title">Lion Timer</string>
+    <string name="main_fragment_top_textview_title">LION Timer</string>
+    <string name="main_fragment_second_textview_title">Funny Lion “Leo” will help you to track your time.</string>
+    <string name="privacy_text_view_text">Please accept our privacy policy in order to use an application.</string>
+    <string name="ok_text">Ok. Start!</string>
+    <string name="later_text">No. Maybe Later</string>
+</resources>
