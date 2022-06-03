@@ -3,12 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@+id/nav_main">
+    app:startDestination="@+id/nav_privacy">
 
     <fragment
         android:id="@+id/nav_main"
-        android:name="com.liontimer.application.pro.ui.MainFragment"
+        android:name="com.liontimer.application.pro.ui.main.MainFragment"
         android:label="@string/main_fragment_title"
         tools:layout="@layout/main_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_saved_tracks"
+        android:name="com.liontimer.application.pro.ui.savedtracks.SavedTracksFragment"
+        android:label="@string/main_fragment_title"
+        tools:layout="@layout/saved_tracks_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_privacy"
+        android:name="com.liontimer.application.pro.ui.privacy.PrivacyFragment"
+        android:label="@string/main_fragment_title"
+        tools:layout="@layout/privacy_fragment"/>
 
 </navigation>

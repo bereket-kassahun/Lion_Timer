@@ -6,4 +6,11 @@
     <string name="privacy_text_view_text">Please accept our privacy policy in order to use an application.</string>
     <string name="ok_text">Ok. Start!</string>
     <string name="later_text">No. Maybe Later</string>
+    <string name="start">Start</string>
+    <string name="resume_pause">Pause/Resume</string>
+    <string name="save">Save</string>
+    <string name="saved_tracks">Saved tracks</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back To Menu</string>
+
 </resources>
